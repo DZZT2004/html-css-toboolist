@@ -1,0 +1,28 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(247, 247, 247);
+    height: 100%;
+}
+
+header{
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 10%;
+    background-color: white
+}
+
+img{
+    margin: 1%;
+    width: 5%;
+}
+
+h1{
+    display: inline-block;
+    position: relative;
+    bottom: 35%;
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;;
+}
