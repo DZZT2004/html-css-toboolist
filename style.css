@@ -4,13 +4,13 @@ html{
 
 body{
     background-color: rgb(247, 247, 247);
-    height: 100%;
+    height: 99%;
 }
 
 header{
     vertical-align: middle;
     box-sizing: border-box;
-    height: 10%;
+    height: 15%;
     background-color: white
 }
 
@@ -25,4 +25,84 @@ h1{
     bottom: 35%;
     font-size: 45px;
     font-family: 'Open Sans', sans-serif;;
+}
+
+main{
+    height: 75%;
+}
+div{
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 5%;
+    padding-top: 2%;
+    height: 95%;
+    background-color: white;
+}
+
+.addTask{
+    color:white;
+    background-color: rgb(62, 176, 230);
+    border: 3px solid;
+    border-radius: 8px;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.addSection{
+    color:lightgray;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+hr{
+    margin-top: 2.5%;
+    margin-left: -7.6%;
+    border-color: white;
+}
+
+li{
+    list-style-type: none;
+    font-size: 20px;
+    margin: 1.5%;
+    margin-left: -3.1%;
+}
+
+li>span{
+    color:white;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 15px;
+}
+
+.editorial{
+    background-color: rgb(62, 176, 230);
+}
+
+.goals{
+    background-color: rgb(174, 94, 214);
+}
+
+.recruiting{
+    background-color: lightgreen;
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: palevioletred;
+}
+
+.sales{
+    background-color: rgb(173, 225, 77)
 }
